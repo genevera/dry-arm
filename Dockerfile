@@ -1,5 +1,5 @@
 # build stage
-FROM alpine:latest AS build-phase
+FROM arm32v7/alpine:latest AS build-phase
 
 LABEL VERSION 0.10-beta.1
 
